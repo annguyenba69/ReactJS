@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper{
+    padding: 100px 0px;
+}
+
+#top-wrapper{
+    padding: 50px 0px 300px 0px;
+}
+
+#top-wrapper h3 {
+    font-size: 40px;
+}
+
+#top-wrapper p {
+    font-size: 24px;
+}
+
+#top-wrapper .button {
+    font-size: 18px;
+    animation: animation-button 2s infinite alternate ease-in-out ;
+}
+
+@keyframes animation-button {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.2);}
+}
+
+#center-wrapper {
+    background-color: #e2e8f0;
+}
+
+#center-wrapper h5{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+#center-wrapper .underline{
+    max-width: 100px;
+    height: 2px;
+    background-color: coral;
+    margin: 0px auto;
+    margin-bottom: 60px;
+}
+
+.item {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    margin-bottom: 50px;
+}
+
+.item img {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.item .item-content{
+    background-color: cornsilk;
+    padding: 10px 10px;
+}
+
+.item .item-content p{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
